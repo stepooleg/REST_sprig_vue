@@ -33,7 +33,9 @@ dependencies {
 	compile('javax.xml.bind:jaxb-api')
 	compile('com.sun.xml.bind:jaxb-core')
 	compile('com.sun.xml.bind:jaxb-impl')
+	compile('com.springframefork.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-security')
+	compile('org.springframework.session:spring-session-jdbc')
 	compile('org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.0.RELEASE')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 
